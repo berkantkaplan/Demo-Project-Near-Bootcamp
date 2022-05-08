@@ -89,7 +89,7 @@ export OWNER=your-account.testnet
 |What Does It Do?|Example Call|
 |---|---|
 Add a Festival |`near call $CONTRACT addFest '{"festName":"Food Festival","genre":"Nutrition","country":"Africa","date":"17062022","requestDonation":"10000000000000000000000000000"}' --accountId your-account.testnet`|
-Find Festival By Id |`near view $CONTRACT findFestById '{"id":$id}' --accountId your-account.testnet`|
+Find Festival By Id |`near view $CONTRACT findFestById '{"id":$id}'`|
 Find Festival By Name |`near view $CONTRACT findFestByName '{"festName":"Food Festival"}'`|
 Get All Festivals|`near view $CONTRACT findFests '{"offset": 0}'`|
 Donate Festival|`near call $CONTRACT donateFest '{"id":$id, "donation" : 1}'  --accountId your-account.testnet --amount 1`|
