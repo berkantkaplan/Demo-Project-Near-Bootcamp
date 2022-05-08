@@ -2,6 +2,9 @@
 
 -This is a smart contract under which any community can request donations for organizing events, and others can donate.
 
+-Here is loom video:
+https://www.loom.com/share/897c51c8e8b94889aa25f909ce973cc8
+
 ## Cloning, Build and Deploy the contract
 
 ```ts
